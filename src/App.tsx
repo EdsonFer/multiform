@@ -1,7 +1,12 @@
+import { FormProvider } from './contexts/FormContext';
+import { Router } from './router';
+import { GlobalStyle } from './styles/global';
+
 export function App() {
 	return (
-		<>
-			<div>...</div>
-		</>
+		<FormProvider>
+			<Router />
+			<GlobalStyle />
+		</FormProvider>
 	);
 }
