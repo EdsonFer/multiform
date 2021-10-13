@@ -44,7 +44,7 @@ export const IconArea = styled.div<{ active: boolean }>`
 export const Point = styled.div<{ active: boolean }>`
 	width: 6px;
 	height: 6px;
-	border: 5px solid #494a7c;
+	border: 3px solid #494a7c;
 	border-radius: 50%;
 	margin-left: 1.875rem;
 	margin-right: -1.4rem;
